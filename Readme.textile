@@ -1,0 +1,13 @@
+h3. Dynamic jQuery UI Tabs with Backbone
+
+h4. _Just what it says on the tin._
+
+:hard_breaks off
+
+I'm doing some work with jQuery tabs, and ran into the problem of dynamically adding new tabs and removing old ones.  Turns out I was ignoring the existing jQueryUI API for tabs, much thanks to "this blog post":http://www.remotesynthesis.com/post.cfm/adding-and-removing-tabs-with-jquery-and-jquery-ui.
+
+So the question became, "How to properly set up Backbone.js views for this?"
+
+This code is my answer.
+
+Here's my "blog post about this":http://blog.chrissterritt.com/2012/03/10/dynamic-jquery-ui-tabs-with-backbone/ and "a demo":http://jquery_tabs_w_backbone.chrissterritt.com/.
